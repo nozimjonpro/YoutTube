@@ -1,0 +1,57 @@
+.header {
+  padding-top: 30px;
+  margin-bottom: 50px;
+}
+
+.header__hamburger {
+  margin-right: 25px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.header__top {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  margin-right: 55px;
+}
+
+.header__icons {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.icon + .icon {
+  margin-left: 45px;
+}
+
+.header__input-box {
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+}
+
+.search__icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.header__input {
+  width: 100%;
+  padding: 12px 0 12px 23px;
+  background: rgba(235, 235, 235, 0.3);
+  mix-blend-mode: normal;
+  border-radius: 22px;
+  border: none;
+  outline: none;
+  
+  &::placeholder {
+    opacity: 0.3;
+  }
+}

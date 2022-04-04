@@ -1,0 +1,164 @@
+.nora {
+  flex-grow: 1;
+  overflow-x: auto;
+  height: 1000px;
+  overflow-y: auto;
+}
+
+.nora__chanel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.nora__chanel-image {
+  margin-bottom: 30px;
+  border-radius: 14px;
+}
+
+.nora__image {
+  margin-right: 15px;
+}
+
+.nora__info {
+  display: flex;
+  align-items: center;
+}
+
+.nora__name {
+  margin: 0;
+}
+
+.nora__followers {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+
+  color: #c2c2c2;
+}
+
+.nora__notif {
+  display: flex;
+  align-items: center;
+}
+
+.nora__btn {
+  width: 155px;
+  margin-left: 20px;
+  padding: 10px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #fff;
+  background: #ff0000;
+  border-radius: 20px;
+  border: none;
+}
+
+.nav-nora {
+  max-width: 700px;
+  margin-bottom: 50px;
+}
+
+.nav__list-nora {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav__link-nora {
+  font-family: sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+
+  &.active {
+    color: red;
+  }
+}
+
+.nora__middle-image {
+  border-radius: 14px;
+}
+
+.nora__middle {
+  display: flex;
+  align-items: center;
+}
+
+.nora__middle-info {
+  max-width: 400px;
+  width: 100%;
+  margin-left: 30px;
+}
+
+.nora__middle-heading {
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 34px;
+  color: #19202c;
+}
+
+.nora__middle-text {
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+
+.nora__main {
+  display: flex;
+}
+
+.nora__recommend{
+margin-bottom: 60px;
+    margin-left: 100px;
+}
+
+.nore__recommend-heading {
+  margin: 0;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #c2c2c2;
+}
+
+.nora__recommend__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nora__recommend-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.nora__recommend-name {
+    margin-left: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #19202c;
+}
+
+.hidden-section{
+  display: none;
+}

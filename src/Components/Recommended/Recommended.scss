@@ -1,0 +1,50 @@
+.gussie__list-recommendent {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 1650px;
+  flex-wrap: wrap;
+  list-style-type: none;
+  column-gap: 45px;
+  margin-bottom: 40px;
+  .gussie__image {
+    margin-bottom: 10px;
+    border-radius: 14px;
+  }
+
+  .gussie__heading {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #19202c;
+  }
+
+  .gussie__link {
+    text-decoration: none;
+  }
+}
+
+.gussie__views {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+
+  color: #c2c2c2;
+}
+
+.gussie__time {
+  margin-left: 10px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+
+  color: #c2c2c2;
+}
+
+.gussiejon--active{
+  display: none;
+}

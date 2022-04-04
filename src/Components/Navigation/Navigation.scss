@@ -1,0 +1,65 @@
+.nav{
+    max-width: 190px;
+    width: 100%;
+}
+
+.nav--active{
+  display: none;
+}
+
+.nav__list,
+.nav__extension,
+.subs__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav__list {
+  margin-bottom: 50px;
+}
+
+.nav__item + .nav__item {
+  margin-top: 25px;
+}
+
+.subs__item + .subs__item {
+  margin-top: 25px;
+}
+
+.nav__icons {
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+.nav__link,
+.subs__links {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #898989;
+  text-decoration: none;
+
+  &.active{
+    color: red;
+  }
+}
+
+.subs__links.subs__links:hover{
+    color: #000;
+}
+
+.nav__icons-account {
+  width: 26px;
+  height: 26px;
+}
+
+.navigation__heading {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+}

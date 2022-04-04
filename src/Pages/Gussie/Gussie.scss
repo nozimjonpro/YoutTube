@@ -1,0 +1,85 @@
+.gussie {
+  flex-grow: 1;
+  overflow-x: auto;
+  height: 1000px;
+  overflow-y: auto;
+}
+
+.hidden-section{
+  display: none;
+}
+
+.gussie__list,
+.gussie__list-top,
+.gussie__list-middle,
+.gussie__list-bottom {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 1650px;
+  flex-wrap: wrap;
+  list-style-type: none;
+  column-gap: 30px;
+  .gussie__item {
+    width: 250px;
+  }
+
+  .gussie__image {
+    width: 250px;
+    height: 150px;
+    margin-bottom: 10px;
+    border-radius: 14px;
+  }
+
+  .gussie__heading {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #19202c;
+  }
+
+  .gussie__link {
+    text-decoration: none;
+  }
+}
+
+.gussie__list-top,
+.gussie__list-middle,
+.gussie__list{
+  margin-bottom: 30px;
+}
+
+.gussie__views {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+
+  color: #c2c2c2;
+}
+
+.gussie__time {
+  margin-left: 10px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+
+  color: #c2c2c2;
+}
+
+.gussie__user-img{
+  margin-right: 20px;
+}
+
+.gussie__username{
+  margin-top: 0;
+  font-weight: 700;
+font-size: 26px;
+line-height: 33px;
+color: #19202C;
+}
+
+
